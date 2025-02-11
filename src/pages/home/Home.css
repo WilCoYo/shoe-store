@@ -214,8 +214,13 @@
 
 
 @media only screen and (max-width: 28rem) {
+
+    .hero-title {
+        padding-top: 8rem; 
+    }
+    
     .hero-top-product{
-        background-color: rgba(156, 155, 155, 0.5);
+        background-color: rgba(156, 155, 155, 0.75);
         
        
         margin: 6rem .0rem .25rem .25rem;
