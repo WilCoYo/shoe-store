@@ -1,8 +1,8 @@
 import React from 'react'
 import './Header.css'
 // import search_icon from '../../assets/images/search-icon.png'
-import heart_icon from '../../assets/images/heart-icon.png'
-import cart_icon from '../../assets/images/cart-icon.png'
+import heart_icon from '../../images/heart-icon.png'
+import cart_icon from '../../images/cart-icon.png'
 
 function Header() {
   return (
