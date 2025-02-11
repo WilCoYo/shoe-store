@@ -1,0 +1,37 @@
+.marquee-container {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #000;
+    color: #fff;
+    font-family: roboto;
+  }
+
+  .marquee {
+    display: flex;
+    width: max-content;
+  }
+
+  .marquee-content {
+    display: flex;
+    gap: 4rem;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+  }
+
+  .marquee:hover .marquee-content {
+    animation-play-state: paused;
+  }
+
+  .marquee-item {
+    flex-shrink: 0;
+  }  
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
