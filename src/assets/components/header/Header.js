@@ -50,7 +50,7 @@ function Header() {
             </div>
             <div className={menuOpen ? 'mobile-navigation' : 'mobile'}>
               <div className='loginLogout'>
-                <button>Login</button>
+                <button placeholder="Log In"></button>
                 <img 
                   src={close_icon} 
                   alt="'X' close button"
