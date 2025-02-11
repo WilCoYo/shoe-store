@@ -218,7 +218,8 @@
 @media only screen and (max-width: 28rem) {
 
     .hero-title {
-        padding-top: 6rem; 
+        padding-top: 6rem;
+        padding-left: 1rem; 
 
         button {
             background-color: rgba(0, 0, 0, 0.699);
