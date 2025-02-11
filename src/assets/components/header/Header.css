@@ -46,7 +46,7 @@
         ul {
             display: flex;
             list-style: none;
-            gap: 1rem;
+            gap: 1.5rem;
 
 
             input {
@@ -69,6 +69,12 @@
                 border-radius: 5rem;
                 border: .5px rgb(0, 0, 0) solid;
                 padding: .25rem 2rem;
+            }
+
+            button:hover {
+                cursor: pointer;
+                background-color: #131313;
+                color: #fff;
             }
 
         }

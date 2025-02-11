@@ -14,6 +14,8 @@ function Home() {
     <div>
       <Marquee />
       <Header />
+
+
       <div className='hero-section-top'>
         <div className='hero-title'>
           <h2>Step up your Stride</h2>
@@ -39,12 +41,72 @@ function Home() {
             <button>
               Add to Cart
             </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div className='best-sellers'>
+        <h3>Best Sellers</h3>
+
+        <div className='best-seller-container'>
+
+
+
+          <div className='product product1'>
+
+            <div className='product-img product-img-1'>
+              {/* <img src={bs_img1} /> */}
+            </div>
+            <div className='product-caption product1-caption'>
+              <h4>Sustainable Strider</h4>
+              <p>$150.00</p>
+            </div>
 
           </div>
 
+          <div className='product product2'>
+
+            <div className='product-img product-img-2'>
+              {/* <img src={bs_img2} /> */}
+            </div>
+            <div className='product-caption product2-caption'>
+              <h4>Distance Elite</h4>
+              <p>$140.00 <s style={{opacity: '.5'}}> $160.00</s></p>
+            </div>
+
+          </div>
+
+          <div className='product product3'>
+
+            <div className='product-img product-img-3'>
+              {/* <img src={bs_img3} /> */}
+            </div>
+            <div className='product-caption product3-caption'>
+              <h4>Sprint Champ</h4>
+              <p>$180.00</p>
+            </div>
+
+          </div>
+
+          <div className='product product4'>
+
+            <div className='product-img product-img-4'>
+              {/* <img src={bs_img4} /> */}
+            </div>
+            <div className='product-caption product4-caption'>
+              <h4>Junior Sport</h4>
+              <p>$72.00 <s style={{opacity: '.5'}}>$90.00</s></p>
+            </div>
+
+          </div>
+
+
+
         </div>
-        
       </div>
+
+
     </div>
   )
 }
