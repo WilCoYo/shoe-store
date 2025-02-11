@@ -155,6 +155,10 @@
             img {
                 width: 2rem;
             }
+
+            button {
+                color: black;
+            }
     }
 
 }
