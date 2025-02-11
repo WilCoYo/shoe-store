@@ -216,9 +216,13 @@
 @media only screen and (max-width: 28rem) {
 
     .hero-title {
-        padding-top: 8rem; 
+        padding-top: 6rem; 
+
+        button {
+            background-color: rgba(0, 0, 0, 0.699);
+        }
     }
-    
+
     .hero-top-product{
         background-color: rgba(156, 155, 155, 0.75);
         
