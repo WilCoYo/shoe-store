@@ -465,5 +465,26 @@
     .product-caption {
         margin-bottom: 3rem;
     }
+
+
+    .reviews-section {
+        height: 25rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;   
+         
+            h3 {
+                margin: auto auto;
+                font-size: 2rem;
+            }
+    
+            .reviews-container {
+                float: right;
+                background: black;
+                height: 100%;
+       
+            }
+    }
+    
     
 }

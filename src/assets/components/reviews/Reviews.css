@@ -8,13 +8,12 @@
 
         .reviews-list {
             display: flex;
-            justify-content: start;
             gap: 3rem;
            
             color: white;
            
             height: 100%;
-            flex-wrap: nowrap;
+            
             
             
 
@@ -23,12 +22,26 @@
                     flex-direction: column;
                     justify-content: space-evenly;
                     min-width: 20rem;
+                    width: 20rem;
                     height: auto;
                     border-radius: 1rem;
 
                     background-color: rgba(0, 0, 0, 0.801);
                     padding: 1rem 3rem;
+            
                 }
 
         }
+}
+
+@media only screen and (max-width: 28rem) {
+    .review-array-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 2rem;
+    }
+
+    .review-content {
+       
+    }
 }
