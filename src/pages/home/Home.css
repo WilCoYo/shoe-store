@@ -218,7 +218,7 @@
 @media only screen and (max-width: 28rem) {
 
     .hero-title {
-        padding-top: 6rem;
+        padding-top: 5rem;
         padding-left: 1rem; 
 
         button {
@@ -228,17 +228,18 @@
 
     .hero-top-product{
         background-color: rgba(156, 155, 155, 0.75);
-        
-       
-        margin: 6rem .25rem .25rem .25rem;
+        float: none;
+
+        margin: 4rem .25rem 0 .25rem;
         
         border-radius: .5rem;
 
         display: flex;
-
+        
 
             img {
-                max-width: 20rem;
+                max-width: 15rem;
+                margin: .25rem
             }
 
           
@@ -250,7 +251,6 @@
         flex-direction: column;
         justify-content: space-between;
         text-align: end;
-
         padding: .25rem;
         
 
