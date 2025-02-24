@@ -2,12 +2,15 @@ import React, { useState } from 'react'
 import './Home.css'
 import Header from '../../assets/components/header/Header'
 import Marquee from '../../assets/components/marquee/Marquee'
+import Reviews from '../../assets/components/reviews/Reviews'
 
 import p1_img1 from '../../assets/images/product1-img.jpg'
 import p1_img2 from '../../assets/images/product1-img-2.jpg'
 
 import k_img_1 from '../../assets/images/kids-product-side.jpg'
 import k_img_2 from '../../assets/images/kids-product-back.jpg'
+import KidsMarquee from '../../assets/components/kids-marquee/Kids-Marquee'
+
 
 function Home() {
 
@@ -136,6 +139,12 @@ function Home() {
             </button>
           </div>
         </div>
+        
+      </div>
+      <KidsMarquee />
+      <div className='reviews-section'>
+        <h3>Customer Reviews</h3>
+        <Reviews />
       </div>
 
     </div>

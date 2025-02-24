@@ -1,0 +1,38 @@
+.kids-marquee-container {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #000;
+    color: #fff;
+    font-family: roboto;
+  }
+
+  .kids-marquee {
+    display: flex;
+    width: max-content;
+  }
+
+  .kids-marquee-content {
+    display: flex;
+    gap: 4rem;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+  }
+
+  .kids-marquee:hover .marquee-content {
+    animation-play-state: paused;
+  }
+
+  .kids-marquee-item {
+    flex-shrink: 0;
+  }  
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
