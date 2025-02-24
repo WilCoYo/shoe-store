@@ -6,6 +6,9 @@ import Marquee from '../../assets/components/marquee/Marquee'
 import p1_img1 from '../../assets/images/product1-img.jpg'
 import p1_img2 from '../../assets/images/product1-img-2.jpg'
 
+import k_img_1 from '../../assets/images/kids-product-side.jpg'
+import k_img_2 from '../../assets/images/kids-product-back.jpg'
+
 function Home() {
 
   const [isHovered, setIsHovered] = useState(false);
@@ -106,6 +109,34 @@ function Home() {
         </div>
       </div>
 
+      <div className='kids-section'>
+      <div className='kids-hero-title'>
+          <h2>20% Off <br></br>Kids Styles</h2>
+          <p>Exclusive, one-time offer</p>
+          <button>SHOP NOW</button>
+        </div>
+
+        <div className='kids-hero-top-product'>
+          <img 
+            src={isHovered ? k_img_2 : k_img_1} 
+            alt='sneaker side view' 
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => {setIsHovered(false)}}
+            />
+
+          <div className='kids-hero-top-product-content'>
+            <ul>
+              <li>Classic<br></br>Comfort</li>
+              <li>$72.00 <s style={{ opacity: ".5"}}>$90.00</s></li>
+              <li style={{color: 'red'}}>Sale</li>
+            </ul>
+
+            <button>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
 
     </div>
   )
