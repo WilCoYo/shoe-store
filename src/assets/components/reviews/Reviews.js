@@ -54,16 +54,19 @@ function Reviews() {
 
 
   return (
-    <div ref={reviewContainerRef} className='review-array-container'>
-        <div className='reviews-list'>
-            {reviewsArray.map((review) => (
-                <div className='review-content'>
-                    <h4>{review.title}</h4>
-                    <p>{review.review}</p>
-                    <p>{review.name}</p>
-                </div>
-                ))}
-        </div>
+    <div className='reviews-section'>
+      <h3>Customer Reviews</h3>
+      <div ref={reviewContainerRef} className='review-array-container'>
+          <div className='reviews-list'>
+              {reviewsArray.map((review) => (
+                  <div className='review-content'>
+                      <h4>{review.title}</h4>
+                      <p>{review.review}</p>
+                      <p>{review.name}</p>
+                  </div>
+                  ))}
+          </div>
+      </div>
     </div>
   )
 }

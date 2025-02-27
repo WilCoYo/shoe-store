@@ -1,15 +1,38 @@
+.reviews-section {
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+
+        h3 {
+            margin: auto auto;
+            font-size: 2rem;
+        }
+
+        .reviews-container {
+            float: right;
+            background: black;
+            height: 100%;
+            width: 50rem;
+        }
+}
+
+
+
 .review-array-container {
     float: right;
-    height: 100%;
+    height: auto;
     width: 45rem;
+    margin: 1rem;
     padding: 1rem;
     overflow-x: scroll;
-    scrollbar-width: none;
+
+   
 
         .reviews-list {
             display: flex;
             gap: 3rem;
-           
             color: white;
            
             height: 100%;

@@ -3,6 +3,7 @@ import './Home.css'
 import Header from '../../assets/components/header/Header'
 import Marquee from '../../assets/components/marquee/Marquee'
 import Reviews from '../../assets/components/reviews/Reviews'
+import Footer from '../../assets/components/footer/Footer'
 
 import p1_img1 from '../../assets/images/product1-img.jpg'
 import p1_img2 from '../../assets/images/product1-img-2.jpg'
@@ -142,11 +143,11 @@ function Home() {
         
       </div>
       <KidsMarquee />
-      <div className='reviews-section'>
-        <h3>Customer Reviews</h3>
+      
+        
         <Reviews />
-      </div>
-
+      
+        <Footer />
     </div>
   )
 }

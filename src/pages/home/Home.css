@@ -317,24 +317,6 @@
 
 /* Reviews Section */
 
-.reviews-section {
-    height: 25rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-
-        h3 {
-            margin: auto auto;
-            font-size: 2rem;
-        }
-
-        .reviews-container {
-            float: right;
-            background: black;
-            height: 100%;
-            width: 50rem;
-        }
-}
 
 
 
