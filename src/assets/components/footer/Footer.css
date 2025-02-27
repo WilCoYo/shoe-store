@@ -12,11 +12,15 @@
         h3 {
             color: white;
             width: 50%;
+            padding: 2rem 0 0 2rem;
+            font-size: 2rem;
         }
 
         .footer-right {
             width: 50%;
-            
+            margin: 2rem;
+
+               
             
                 .email-updates-form {
                     background-color: #FAC755;
@@ -28,6 +32,7 @@
                        margin-bottom: 2rem;
                     }
 
+                   
                     p {
                         padding-left: .5rem;
                         padding-bottom: .25rem;
@@ -83,5 +88,48 @@
                 
 
                 }
+
+                .footer-grid-container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: auto;
+                    gap: 1rem;
+                    width: 100%;
+                    margin-top: 2rem;
+                    
+
+                        h5 {
+                            text-align: center;
+                            background-color: white;
+                            color: black;
+                            padding-left: 1rem;
+                            border-radius: .25rem;
+                            padding: .5rem .5rem .5rem 1rem;
+                        }
+
+                        button {
+                            outline: white;
+                            color: white;
+                            outline: .5px white solid;
+                            background-color: black;
+                            padding-left: 1rem;
+                            border-radius: .25rem;
+                            padding: .5rem .5rem .5rem 1rem;
+                        }
+
+                        button:hover {
+                            cursor: pointer;
+                            background-color: white;
+                            color: black;
+                        }
+
+                        .socials {
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr;
+                            gap: 1rem;
+                            width: 100%;
+                        }
+                }
+
         }
  }
