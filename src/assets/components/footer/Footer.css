@@ -153,6 +153,13 @@
         height: auto;
         width: 100%;
 
+            .footer-left {
+                width: 100%;
+                margin: 0;
+                padding: 2rem 0;
+                text-align: center;
+            }
+
             .footer-right {
                 width: 100%;
                 margin: 0;
