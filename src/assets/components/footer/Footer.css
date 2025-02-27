@@ -1,4 +1,6 @@
-
+#mobile {
+    display: none;
+ }
  
  .footer {
     height: 40rem;
@@ -132,4 +134,42 @@
                 }
 
         }
+ }
+
+
+
+
+ @media only screen and (max-width: 28rem) {
+    #desktop {
+        display: none;
+    }
+
+    #mobile {
+        display: grid;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+
+            .footer-right {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+
+
+                    .checkbox-submit {
+                        flex-direction: column;
+                    }
+
+                    .footer-grid-container {
+                        grid-template-columns: 1fr;
+                        
+                            h5 {
+                                margin-top: 2rem;
+                            }
+                    }
+            }
+    }
  }
