@@ -5,6 +5,7 @@ import heart_icon from '../../images/heart-icon.png'
 import cart_icon from '../../images/cart-icon.png'
 import menu_icon from '../../images/menu-icon.png'
 import close_icon from '../../images/close-icon.png'
+import 'anime.css';
 
 
 function Header() {
@@ -48,7 +49,7 @@ function Header() {
                 onClick={mobileNavOpen}/>
                 
             </div>
-            <div className={menuOpen ? 'mobile-navigation' : 'mobile'}>
+            <div className={menuOpen ? 'mobile-navigation animate__animated animate__fadeIn' : 'mobile'}>
               <div className='loginLogout'>
                 <button>Log In</button>
                 <img 

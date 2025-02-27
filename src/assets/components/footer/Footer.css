@@ -21,7 +21,7 @@
         .footer-right {
             width: 50%;
             margin: 2rem;
-
+ 
                
             
                 .email-updates-form {
@@ -75,10 +75,10 @@
                     .checkbox-container {
                         display: flex;
                         align-items: center;
-                        
+                        padding-bottom: 1rem;
 
                         span {
-                            padding-left: 1rem;
+                            padding-left: .5rem;
                         }
 
                         .subscribe-checkbox:hover {
